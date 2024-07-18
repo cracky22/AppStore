@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 20px;
+        }
+
+        .box {
+            background-color: #9b6767;
+            border: 1px solid #416ea5;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>App Store</h1>
+    <div class="container">
+        <div class="box">App 1</div>
+        <div class="box">App 2</div>
+        <div class="box">App 3</div>
+        <div class="box">App 4</div>
+        <div class="box">App 5</div>
+        <div class="box">App 6</div>
+    </div>
+</body>
+</html>
