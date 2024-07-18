@@ -1,14 +1,9 @@
 <?php
 $files = array(
-    'e92941fe-44f4-11ef-9246-539e0da4eaa0' => 'msg.zip',
-    'e977132a-44f4-11ef-9165-7f217aade36d' => 'slidethings.zip',
-    'e9bbb19c-44f4-11ef-96fe-0322058f6a03' => 'file.zip',
-    'e9fcf94a-44f4-11ef-8cf3-0335f52097ea' => 'file.zip',
-    'ea401676-44f4-11ef-a3aa-8f831f49c5e2' => 'file.zip',
-    'ea830d00-44f4-11ef-877c-233198e4a1a1' => 'file.zip',
-    'eac3bcf6-44f4-11ef-831a-4bd02fc6152e' => 'file.zip',
-    'eb021d5c-44f4-11ef-af53-07ff0804ebb1' => 'file.zip',
-    'eb421ede-44f4-11ef-a8cf-bf63a44f4c69' => 'file.zip'
+    'e7d5e3de-44f4-11ef-b64a-0b627cc83e34' => 'msg-encrypt_stable.zip',
+    'e8682032-44f4-11ef-b221-93373ac0bd56' => 'slidethings.zip',
+    'e92941fe-44f4-11ef-9246-539e0da4eaa0' => 'notes.apk',
+    'e977132a-44f4-11ef-9165-7f217aade36d' => 'pwgen.apk'
 );
 
 if (isset($_GET['id'])) {
