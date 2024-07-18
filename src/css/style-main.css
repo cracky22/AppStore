@@ -7,7 +7,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #181818;
-    color: white!important;
+    color: white !important;
 }
 
 .container {
@@ -25,11 +25,13 @@ body {
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     margin: 10px;
     padding: 20px;
-    width: 200px;
+    width: calc(33.33% - 40px); /* Dreispaltiges Layout */
     height: 310px;
     text-align: center;
     transition: transform 0.3s ease;
+    box-sizing: border-box; /* Box-Sizing für genaue Breitenberechnung */
 }
+
 p {
     max-width: 95%;
 }
@@ -45,9 +47,15 @@ img.appicon {
     width: 85px;
 }
 
+@media (max-width: 1024px) {
+    .box {
+        width: calc(50% - 40px); /* Zweispaltiges Layout für kleinere Bildschirme */
+    }
+}
+
 @media (max-width: 768px) {
     .box {
-        width: 100%;
+        width: calc(100% - 40px); /* Einspaltiges Layout für Mobilgeräte */
         height: 270px;
         margin: 15px 0;
     }
@@ -56,4 +64,3 @@ img.appicon {
         width: 110px;
     }
 }
-
